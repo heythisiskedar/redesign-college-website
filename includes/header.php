@@ -49,8 +49,8 @@
             </a>
           </nav>
 
-          <!-- Mobile Menu Button mapped to native JS later -->
-          <button class="md:hidden p-2 rounded-md text-gray-600 hover:text-blue-900 focus:outline-none" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+          <!-- Mobile Menu Button -->
+          <button id="mobile-menu-btn" class="md:hidden p-2 rounded-md text-gray-600 hover:text-blue-900 focus:outline-none">
             <i data-lucide="menu" class="w-7 h-7"></i>
           </button>
         </div>
